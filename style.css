@@ -4,11 +4,13 @@ html{
 
 body{
     background-color: rgb(184, 184, 228);
-    /* background-image: url(images/starter.jpg); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-
+    background-image: url(images/pinky.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
 }
 
 /* .container{
@@ -26,25 +28,22 @@ header {
 
 
 nav, footer{
-    background-color: rgba(16, 12, 78, 0.418);
+    background-color: rgba(59, 12, 78, 0.418);
     text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    /* padding-top: 14px; */
+    /* padding-bottom: 14px; */
+    /* padding: 1px; */
 }
 
 main {
-    background-color: rgba(137, 137, 194, 0.74);
-    height: 600px;
+    background-color: rgba(164, 137, 194, 0.74);
+    height: 650px;
     text-align: center;
     /* padding-top: 80px; */
-    padding-left: 100px;
-    padding-right: 100px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
 }
 
-footer{
-    background-color: rgba(16, 12, 78, 0.418);
-    /* height: 100px; */
-}
 
 h1{
     font-size: 50px;
@@ -95,8 +94,8 @@ nav a{
 footer p{
     font-size: 10px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
 }
 
 input{
@@ -129,10 +128,10 @@ button{
     color: rgb(61, 61, 61);
 }
 
-button :hover{
+button:hover{
     background-color: rgba(16, 12, 78, 0.418);
 }
 
-button :active{
+button:active{
     background-color: rgb(184, 184, 228);
 }

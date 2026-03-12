@@ -1,4 +1,4 @@
-var triesLeft = localStorage.setItem("maxtries", 10);
+var triesLeft;
 var randomNumber;
 var endValue;
 var needNewNumber = false;  // if this is true, you have to press generate num to be able to guess again
@@ -40,6 +40,12 @@ function start(){
     
     // get how many tries you have
     triesLeft = localStorage.getItem("maxtries");
+    if(!triesLeft || (triesLeft!=triesLeft)){// if not specified of NaN
+        localStorage.setItem("maxtries", 10);
+        triesLeft = localStorage.getItem("maxtries");
+    }
+    console.log("Max tries: "+ triesLeft);
+
     document.getElementById("guessishigherthannumber").innerHTML = "?";
     document.getElementById("guessednumber").innerHTML = "?";
     document.getElementById("guessislowerthannumber").innerHTML = "?";
@@ -50,17 +56,11 @@ function start(){
 function pickNumber(){
     // get max value
     endValue = localStorage.getItem("maxnumber");
-    if(!endValue || (endValue!=endValue)){
-        console.log("NO END VALUE IN STORAGE " + endValue)
-        localStorage.setItem("maxnumber", 200);
+    if(!endValue || (endValue!=endValue)){ // if not specified of NaN
+        localStorage.setItem("maxnumber", 100);
         endValue = localStorage.getItem("maxnumber");
     }
-    else{console.log("EndValue is :" + endValue)};
-    console.log(endValue);
-    // endValue = Number(endValue);
-    
-
-    
+    console.log("Endvalue: "+ endValue);
 
     // calculate number
     randomNumber = generateNumber(endValue);
