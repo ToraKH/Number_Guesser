@@ -9,6 +9,7 @@ default values are:
 you can change them by going to settings and insert the specified number you want and press the button
 
 ## to play
+game here: https://torakh.github.io/Number_Guesser/
 navigate to game
 press the generate number button
 insert guess
