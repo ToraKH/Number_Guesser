@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1> 🧙‍♂️ Number Guesser🪄</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Game</a>
+        <a href="./settings.html">Settings</a>
+    </nav>
+    <main>
+        <div id="inputfields">
+            <div class="row">
+                <div class="input">
+                    <h2>Number can be up to:</h2> 
+                    <input type="number" id="endnum" min="0" required>
+                </div>
+                <div class="input">
+                    <h2>Number of tries:  </h2>
+                    <input type="number" id="chosentries" min="1" required><br>
+                </div>        
+            </div>
+        </div>
+        <button onclick="saveInput()" id="confirmbutton">Confirm</button>
+    </main>
+    <footer> 
+        <h3>Game made by Tora! </h3>
+    </footer>
+</body>
+</html>

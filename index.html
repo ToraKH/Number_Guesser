@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1> 🧙‍♂️ Number Guesser🪄</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Game</a>
+        <a href="./settings.html">Settings</a>
+    </nav>
+
+    <main>
+        <button onclick="start()" id="gennum">Generate Random Number</button>
+        <!-- <div id="inputfields">
+            
+        </div> -->
+        <div id="inputfields">
+                <h2> Your guess: </h2>
+                <input type="number" id="guessednum" min="0" required><br>
+                <button onclick="handleGuess()" id="checkbutton">Check</button>
+        </div>
+
+        <div id="upordown">
+            <p id="guessishigherthannumber">?</p>
+            <p id="guessednumber">?</p>
+            <p id="guessislowerthannumber">?</p>
+        </div>
+        <p id="msgBox"></p>
+    </main>
+    <footer> 
+        <h3>Game made by Tora! </h3>
+    </footer>
+
+    
+</body>
+</html>

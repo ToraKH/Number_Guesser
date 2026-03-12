@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+nav{
+    background-color: rgba(16, 12, 78, 0.418);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+header{
+    margin-bottom: 100px;
+}
+body{
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: cursive, Tahoma, Verdana, sans-serif;
+    background-size: cover;
+    background: linear-gradient(rgba(19, 150, 41, 0.518), rgba(2, 41, 25, 0.788));
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(184, 184, 228);
+    width: 90vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(150, 194, 137, 0.74);
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.row{
+    display:flex;   /* children side by side */
+    /* align-items: center;
+    justify-content: center;
+    background-position: center; */
+    margin-bottom: 10px; /*space between rows*/
+    gap: 40px; /* space between label and input*/
+    background-color: rgba(42, 65, 165, 0);
+    
+}
+
+#upordown{
+    margin-left: 300px;
+}
+
+p{
+    margin: 100px;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+button{
+    padding: 20px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+
+#inputfields{
+    justify-content: center;
+}

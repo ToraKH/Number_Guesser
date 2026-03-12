@@ -1,0 +1,138 @@
+html{
+    height: 100%
+}
+
+body{
+    background-color: rgb(184, 184, 228);
+    /* background-image: url(images/starter.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+
+}
+
+/* .container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+} */
+
+
+header {
+    background-color: rgba(137, 137, 194, 0);
+    height: 118px;
+    text-align: center;
+}
+
+
+nav, footer{
+    background-color: rgba(16, 12, 78, 0.418);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    background-color: rgba(137, 137, 194, 0.74);
+    height: 600px;
+    text-align: center;
+    /* padding-top: 80px; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer{
+    background-color: rgba(16, 12, 78, 0.418);
+    /* height: 100px; */
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(61, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(61, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* table{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr{
+    font-size: 20px;
+} */
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input{
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+}
+
+button{
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#upordown{
+    font-size: 40px;
+    margin: 40px;
+}
+
+#numberisgenerated{
+    color: rgb(61, 61, 61);
+}
+
+button :hover{
+    background-color: rgba(16, 12, 78, 0.418);
+}
+
+button :active{
+    background-color: rgb(184, 184, 228);
+}
