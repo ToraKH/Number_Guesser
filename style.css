@@ -6,7 +6,7 @@ body{
     background-color: rgb(184, 184, 228);
     background-image: url(images/pinky.jpg); 
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: center;
     width: 70%;
     justify-content: center;
@@ -136,3 +136,4 @@ button:active{
     background-color: rgb(184, 184, 228);
 
 }
+
