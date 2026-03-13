@@ -6,7 +6,7 @@ body{
     background-color: rgb(184, 184, 228);
     background-image: url(images/pinky.jpg); 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center;
     width: 70%;
     justify-content: center;
@@ -134,4 +134,5 @@ button:hover{
 
 button:active{
     background-color: rgb(184, 184, 228);
+
 }
